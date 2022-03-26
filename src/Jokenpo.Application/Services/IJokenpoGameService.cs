@@ -1,7 +1,7 @@
 ﻿using Jokenpo.Application.Enums;
 using Jokenpo.Application.Models;
 
-namespace Jokenpo.Application.Interfaces
+namespace Jokenpo.Application.Services
 {
     public interface IJokenpoGameService
     {

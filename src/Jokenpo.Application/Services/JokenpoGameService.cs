@@ -1,5 +1,4 @@
 ﻿using Jokenpo.Application.Enums;
-using Jokenpo.Application.Interfaces;
 using Jokenpo.Application.Models;
 
 namespace Jokenpo.Application.Services

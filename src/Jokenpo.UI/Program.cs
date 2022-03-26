@@ -1,5 +1,4 @@
-﻿using Jokenpo.Application.Interfaces;
-using Jokenpo.Application.Services;
+﻿using Jokenpo.Application.Services;
 using Jokenpo.UI.Helpers;
 
 const int pointsToWin = 3;
