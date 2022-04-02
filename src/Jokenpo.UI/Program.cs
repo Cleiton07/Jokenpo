@@ -10,7 +10,7 @@ IMoveHelper moveHelper = new MoveHelper();
 IJokenpoGameService gameService = new JokenpoGameService();
 
 Console.WriteLine("The game is starting...");
-Console.WriteLine("the game ends when one of the players gets 5 points.\n\n");
+Console.WriteLine($"the game ends when one of the players gets {pointsToWin} points.\n\n");
 await Task.Delay(2000);
 for (int round = 1; playerOnePoints < pointsToWin && playerTwoPoints < pointsToWin; round++)
 {
@@ -48,7 +48,7 @@ for (int round = 1; playerOnePoints < pointsToWin && playerTwoPoints < pointsToW
     }
     await Task.Delay(1000);
 
-    Console.WriteLine($"\nThe score is: Player One [{playerOnePoints}]  -  Player Two [{playerTwoPoints}]");
+    Console.WriteLine($"\nThe score is: Player One [{playerOnePoints}] - [{playerTwoPoints}] Player Two");
     await Task.Delay(3000);
 }
 
